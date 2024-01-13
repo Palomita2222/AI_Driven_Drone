@@ -60,9 +60,9 @@ The AI consists of <b>three supervised models</b>, A 2D CNN for images ( For the
 I will get lots of data by flying myself and the program I am developing will capture the data and save it into different folders for classification.
 There will be 5 folders, for 5 actions the Drone can take. Forward, Right, Left, Rotate Right and Rotate Left. Whenever I fly the drone in a direction, the drone will take a picture, as well as save the distances to the direction's directory.
 
-<img src="/process/IMG_0337.JPG", width=350px, height=250px>
 
 Later, I will train the models and when everything is working, I will save the model to be able to import it to a new code file.
 This new code file will take in a GPS location, and its own, and will calculate the line of shortest path between the drone and the objective (in 2D). It will then (by communicating through from the Jetson Nano to the Pixhawk Flight Computer) move towards it. Only when the distance sensors detect an obstacle close by, will the drone start making predictions on where to go, and hopefully, it will avoid obstacles.
 
+<img src="/process/IMG_0337.JPG">
 
