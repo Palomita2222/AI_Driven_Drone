@@ -64,4 +64,3 @@ Later, I will train the models and when everything is working, I will save the m
 This new code file will take in a GPS location, and its own, and will calculate the line of shortest path between the drone and the objective (in 2D). It will then (by communicating through from the Jetson Nano to the Pixhawk Flight Computer) move towards it. Only when the distance sensors detect an obstacle close by, will the drone start making predictions on where to go, and hopefully, it will avoid obstacles.
 
 
-<img src="image.png">
