@@ -8,7 +8,7 @@ For this project i'm using:
     Hawk's Work F450 Drone Kit + Pixhawk Flight Computer
     <ul>
       <li>
-        <src href="https://www.amazon.es/dp/B09SZ74YFK?ref=emc_s_m_5_i_n">Link 1</src>
+        <a href="https://www.amazon.es/dp/B09SZ74YFK?ref=emc_s_m_5_i_n">Link 1</a>
       </li>
     </ul>
   </li>
@@ -16,7 +16,7 @@ For this project i'm using:
     Time Of Flight VL53L0X Laser distance sensors x 5
     <ul>
       <li>
-        <src href="https://www.amazon.es/TECNOIOT-VL53L0X-Flight-Distance-GY-VL53L0XV2/dp/B084BTP479/ref=sr_1_16">Link 2</src>
+        <a href="https://www.amazon.es/TECNOIOT-VL53L0X-Flight-Distance-GY-VL53L0XV2/dp/B084BTP479/ref=sr_1_16">Link 2</a>
       </li>
     </ul>
   </li>
@@ -24,14 +24,14 @@ For this project i'm using:
     Ultrasonic Distance Sensor HC-SR04
     <ul>
       <li>
-        <src href="https://www.amazon.es/AZDelivery-Distancia-Ultrasónico-Raspberry-incluido/dp/B07TKVPPHF/ref=sr_1_7">Link 3</src>
+        <a href="https://www.amazon.es/AZDelivery-Distancia-Ultrasónico-Raspberry-incluido/dp/B07TKVPPHF/ref=sr_1_7">Link 3</a>
       </li>
     </ul>
   <li>
     Jetson Nano Microcomputer (for quick and reliable AI predictions and communication to the Flight Computer)
     <ul>
       <li>
-        <src href="https://www.amazon.es/Waveshare-Jetson-Nano-Developer-Kit/dp/B07QWLMR24/ref=sr_1_2_sspa">Link 4</src>
+        <a href="https://www.amazon.es/Waveshare-Jetson-Nano-Developer-Kit/dp/B07QWLMR24/ref=sr_1_2_sspa">Link 4</a>
       </li>
     </ul>
   </li>
