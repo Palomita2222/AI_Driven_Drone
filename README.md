@@ -39,7 +39,7 @@ For this project i'm using:
     Ender-3 V2 NEO 3D printer (For 3d printing the supports for the lasers and height sensor ++)
     <ul>
       <li>
-        <src href="https://www.amazon.es/Creality-V2-Neo-Preinstalado-Principiantes/dp/B0BQJD1QFT/ref=sr_1_1_sspa">Link 5</src>
+        <a href="https://www.amazon.es/Creality-V2-Neo-Preinstalado-Principiantes/dp/B0BQJD1QFT/ref=sr_1_1_sspa">Link 5</a>
       </li>
     </ul>
   </li>
@@ -47,16 +47,15 @@ For this project i'm using:
     Python 3.11.4 + Jupyter Notebook 6.5.4
     <ul>
       <li>
-        <src href="https://www.python.org">Link 6</src>
+        <a href="https://www.python.org">Link 6</a>
       </li>
     </ul>
   </li>
-  <li>
+  </ol>
     <h5 color="red">COST : 920€~</h5>
-  </li>
-</ol>
 
-The AI consists of three supervised models, A 2D CNN for images ( For the camera on board ), a 1D CNN ( For the distance sensors onboard ) and a FC NN that recieves both NN's action and decides the best one for the job.
+
+The AI consists of <b>three supervised models</b>, A 2D CNN for images ( For the camera on board ), a 1D CNN ( For the distance sensors onboard ) and a FC NN that recieves both NN's action and decides the best one for the job.
 
 I will get lots of data by flying myself and the program I am developing will capture the data and save it into different folders for classification.
 There will be 5 folders, for 5 actions the Drone can take. Forward, Right, Left, Rotate Right and Rotate Left. Whenever I fly the drone in a direction, the drone will take a picture, as well as save the distances to the direction's directory.
