@@ -68,6 +68,6 @@ This new code file will take in a GPS location, and its own, and will calculate 
 <div>
   <img src="/models/2DCNN.png", width=250, height=600>
   <img src="/models/1DCNN.png", width=250, height=450>
-  <img src="/models/FCNN", width=250, height=450>
+  <img src="/models/FCNN.png", width=250, height=450>
 </div>
 
