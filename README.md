@@ -54,7 +54,7 @@ For this project i'm using:
   </ol>
     <h5 color="red">COST : 920€~</h5>
     
-<img src="/models/2DCNN.png", width=100, height=600>
+<img src="/models/2DCNN.png", width=250, height=600>
 
 The AI consists of <b>three supervised models</b>, A 2D CNN for images ( For the camera on board ), a 1D CNN ( For the distance sensors onboard ) and a FC NN that recieves both NN's action and decides the best one for the job.
 
