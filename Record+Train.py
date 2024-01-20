@@ -95,14 +95,14 @@ def folder_value(folder):
 def rec_image(folder, times=1):
     for i in range(times):
         sleep(0.01)
-        ret, image = cam.read()
+        ret, image = cam.read() #THE CAMERA SHOULD BE CONNECTED DIRECTLY TO JETSON NANO
         image = preprocess_image(image)
         cv2.imwrite(f"{folder}{len(image_sort(folder))}.jpg",image)
 
 def rec_lasers(folder, times=1):
     #recieve lengths from 8 or 5 lasers
     for i in range(times):
-        data = [1,2,3,4,5]
+        data = [1,2,3,4,5] #GET DATA FROM LASERS WITH JETSON NANO
         file = open(f"{folder}{len(text_sort(folder))}.txt", "w")
         file.write(str(data))
         file.close()
@@ -244,6 +244,10 @@ def train():
     print(f"Labels : {train_labels.shape}")
     
     model3.fit(predictions-1, train_labels, epochs=25)
+    
+    model1.save("models/2DCNN")
+    model2.save("models/1DCNN")
+    model3.save("models/FCNN")
     return model1, model2, model3
     
     
@@ -268,7 +272,7 @@ def test():
     print(pred3)
     print(pred3.argmax())
         
-while True:
+for i in range(5):
     main = input("1(fd), 2(rt), 3(lt), 4(rtr), 5(ltr), 6(Train), 7(Test)")
     #Instead of input, get values from recv
     #Channel 1 to fwd
@@ -298,4 +302,3 @@ while True:
     else:
     
         print("Not an option")
-
