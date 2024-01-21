@@ -3,4 +3,6 @@ Connect GPS to Raspberry Pi (I'm using a Jetson Nano, but its similar) : https:/
 Use V53L0X Laser Sensors with Raspberry Pi : https://github.com/Gadgetoid/VL53L0X-python
 Jetson Nano - Getting Started : https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit
 Jetson Nano - Pin Layout : https://files.seeedstudio.com/wiki/reComputer-Jetson-Nano/59.png
+Stack Overflow - Errors : https://stackoverflow.com/users/23196757/robert-saula-mota
+
 
