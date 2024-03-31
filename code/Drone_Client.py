@@ -2,7 +2,7 @@ import socket
 import ast
 
 # Define server address and port
-SERVER_HOST = '127.0.0.1'  # Replace with the actual IP address of the server
+SERVER_HOST = '127.0.0.1'  #Replace with Hotspot IP 
 SERVER_PORT = 12345                # Same port as the server
 
 # Create a socket object
@@ -17,7 +17,7 @@ Manual = False
 EBrake = False
 Training = False
 
-# Receive data from the server
+# Receive data from the server  
 while True:
     data = ast.literal_eval(client_socket.recv(1024).decode())
     if not data:
@@ -26,6 +26,7 @@ while True:
         AI = not AI
         Manual = False
         EBrake = False
+        Training = False
         message = f"['Autonomous Mode Triggered : {AI}',{AI},{Manual},{EBrake},{Training}]"
         print(f"lat : {data[1][0]} lon : {data[1][1]}")
     elif data[0] == "Manual Mode Sent":
