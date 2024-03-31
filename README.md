@@ -1,6 +1,6 @@
 # AI Driven Drone
 Hey, This is one of my biggest projects yet. I am currently building a drone and I want to add an AI algorithm to it, so It can go to any GPS location, avoiding obstacles on the way.
-This is one of my biggest projects and its for school too.
+This is one of my biggest projects I am doing for school.
 
 For this project i'm using:
 <ol>
