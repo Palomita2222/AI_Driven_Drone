@@ -66,7 +66,7 @@ This new code file will take in a GPS location, and its own, and will calculate 
 
 <img src="/process/IMG_0337.JPG">
 <h2>Control Tool:</h2>
-<img src="process/Control_Server.png, width=600, height=400>
+<img src="process/Control_Server.png", width=600, height=400>
 <div>
   <img src="/models/2DCNN.png", width=250, height=600>
   <img src="/models/1DCNN.png", width=250, height=450>
