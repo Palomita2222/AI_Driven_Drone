@@ -5,8 +5,8 @@ import threading
 import ast
 
 # Define host and port
-HOST = '127.0.0.1'  # Listen on all network interfaces
-PORT = 12345      # Arbitrary non-privileged port
+HOST = '0.0.0.0'
+PORT = 12345
 
 # Create a socket object
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -52,7 +52,7 @@ def color_update():
         TrStyle.configure("Tr.TLabel", foreground="green")
     else:
         TrStyle.configure("Tr.TLabel", foreground="red")
-        
+
 def handle_client(client_socket, address):
     global log
     # Add client socket to the list
