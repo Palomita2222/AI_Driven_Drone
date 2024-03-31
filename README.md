@@ -1,4 +1,4 @@
-# AI Driven Drone
+# AI Driven Drone by Robert Saula Mota
 Hey, This is one of my biggest projects yet. I am currently building a drone and I want to add an AI algorithm to it, so It can go to any GPS location, avoiding obstacles on the way.
 This is one of my biggest projects I am doing for school.
 
