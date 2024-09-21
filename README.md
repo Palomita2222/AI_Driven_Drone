@@ -1,6 +1,7 @@
 # AI Driven Drone by Robert Saula Mota
 Hey, This is one of my biggest projects yet. I am currently building a drone and I want to add an AI algorithm to it, so It can go to any GPS location, avoiding obstacles on the way.
-This is one of my biggest projects I am doing for school.
+This is one of my biggest projects yet, which I am doing for school.
+This drone will not be self-driven as the model is just a Supervised Model (Not a reinforced Model, which would be optimal), and the drone's GPS accuracy is +-9 meters, making it dangerous for it to be self-driving.
 
 For this project i'm using:
 <ol>
